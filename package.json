@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
-		"build": "npm run lint && npm run compile",
+		"build": "[my-framework] build --output public",
 		"compile": "npx swc src -d dist",
 		"tscompile": "tsc --build tsconfig.json",
 		"lint": "eslint . --ignore-path .gitignore --ext .ts",
